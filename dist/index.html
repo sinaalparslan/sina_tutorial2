@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v6.2.0/css/ol.css">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v6.2.0/build/ol.js"></script>
+    </head>
+    <body>
+        <div id="map" class="map"></div>        
+        <script src="map_handler.js"></script>
+        <div id="right_panel" class="right_panel">
+            <br>
+            <br>
+            <br>
+            <p>Tree Type:</p>
+            <select id="tree_type">
+                <option value="Çam">Çam Ağacı</option>
+                <option value="Kavak">Kavak Ağacı</option>                            
+            </select>
+            <p>Latitude:</p>
+            <input type="text" id="Latitude"></input>
+            <p>Longitude:</p>
+            <input type="text" id="Longitude"></input>
+            <br>
+            <br>
+            <br>
+            <button onclick="submit();">Submit</button>
+        </div>
+    </body>
+</html>
